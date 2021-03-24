@@ -65,7 +65,8 @@ module.exports = {
 		'vue/max-len': maxLenRule,
 		/**
 		 * @vue/airbnb config just extends airbnb-base config and overrides 'no-param-reassign' rule. Since this config extends airbnb-base
-		 * by default already, so point in extending the whole @vue/airbnb config - copying this rule override is sufficient enough.
+		 * by default already, there is no point in extending the whole @vue/airbnb config.
+		 * Copying this override rule is sufficient enough.
 		 * (https://github.com/vuejs/eslint-config-airbnb/blob/master/index.js)
 		 */
 		'no-param-reassign': [
