@@ -1,4 +1,5 @@
-<h1 align="center">@zyro-inc/eslint-config-zyro</b></h1>
+<img alt="Zyro logo" src="https://raw.githubusercontent.com/zyro-inc/public-assets/master/Logo/JPG/Zyro%20Logo%20White.jpg" />
+<h1 align="center"><b>@zyro-inc/eslint-config-zyro</b></h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/zyro-inc/eslint-config-zyro#readme" target="_blank">
