@@ -1,0 +1,19 @@
+{
+  "name": "@zyro-inc/eslint-config-zyro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyro-inc/eslint-config-zyro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyro-inc/eslint-config-zyro/issues"
+  },
+  "homepage": "https://github.com/zyro-inc/eslint-config-zyro#readme"
+}
