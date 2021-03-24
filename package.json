@@ -1,19 +1,64 @@
 {
-  "name": "@zyro-inc/eslint-config-zyro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zyro-inc/eslint-config-zyro.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zyro-inc/eslint-config-zyro/issues"
-  },
-  "homepage": "https://github.com/zyro-inc/eslint-config-zyro#readme"
+	"name": "@zyro-inc/eslint-config-zyro",
+	"version": "1.0.0",
+	"description": "ESLint config, which follows the Zyro style guide",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zyro-inc/eslint-config-zyro.git"
+	},
+	"scripts": {
+		"lint": "eslint . --fix"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"config",
+		"zyro",
+		"linter",
+		"lint",
+		"style",
+		"styleguide",
+		"javascript",
+		"vue"
+	],
+	"author": "Zyro team (https://zyro.com/)",
+	"contributors": [
+		{
+			"name": "Benas Mandravickas",
+			"email": "bmandravickas@gmail.com",
+			"url": "https://github.com/benmandr"
+		},
+		{
+			"name": "Matas Mažeika",
+			"url": "https://github.com/matasmazeikaa"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/zyro-inc/eslint-config-zyro/issues"
+	},
+	"homepage": "https://github.com/zyro-inc/eslint-config-zyro#readme",
+	"license": "ISC",
+	"dependencies": {
+		"eslint-config-airbnb-base": "^14.2.1"
+	},
+	"peerDependencies": {
+		"eslint": ">= 3",
+		"eslint-plugin-vue": "^7.7.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-destructure-depth": "^1.0.1",
+		"eslint-plugin-destructuring-newline": "0.0.2",
+		"eslint-plugin-modules-newline": "0.0.6",
+		"eslint-plugin-unicorn": "^28.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^7.21.0",
+		"@vue/cli-service": "^3.12.1",
+		"eslint-plugin-vue": "^7.7.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-destructure-depth": "^1.0.1",
+		"eslint-plugin-destructuring-newline": "0.0.2",
+		"eslint-plugin-modules-newline": "0.0.6",
+		"eslint-plugin-unicorn": "^28.0.2"
+	}
 }
