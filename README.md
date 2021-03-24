@@ -1,4 +1,4 @@
-<img alt="Zyro logo" src="https://raw.githubusercontent.com/zyro-inc/public-assets/master/Logo/JPG/Zyro%20Logo%20White.jpg" />
+<p align="center"><a href="https://zyro.com" rel="nofollow"><img src="https://raw.githubusercontent.com/zyro-inc/public-assets/master/Logo/JPG/Zyro%20Logo%20White.jpg" alt="Zyro logo" style="max-width:100%;" width="200"></a></p>
 <h1 align="center"><b>@zyro-inc/eslint-config-zyro</b></h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
