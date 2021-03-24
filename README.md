@@ -23,6 +23,8 @@ npm i -D @zyro-inc/eslint-config-zyro
 ```sh
 yarn add -D @zyro-inc/eslint-config-zyro
 ```
+
+**Make sure to install all peerDependencies as well !**
 ## Usage
 - **For JS projects**
 ```js
