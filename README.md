@@ -15,11 +15,14 @@
 ### 🏠 [Homepage](https://github.com/zyro-inc/eslint-config-zyro#readme)
 
 ## Install
-
+**NPM**
 ```sh
-npm i -D @zyro/eslint-config-zyro
+npm i -D @zyro-inc/eslint-config-zyro
 ```
-
+**YARN**
+```sh
+yarn add -D @zyro-inc/eslint-config-zyro
+```
 ## Usage
 - **For JS projects**
 ```js
