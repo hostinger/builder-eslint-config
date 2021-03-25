@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"lint": "eslint . --fix",
-		"publish": "npm version patch && git push && npm publish --access public && git push --tags"
+		"publish-config": "npm version patch && git push && npm publish --access public && git push --tags"
 	},
 	"keywords": [
 		"eslint",
