@@ -8,7 +8,8 @@
 		"url": "git+https://github.com/zyro-inc/eslint-config-zyro.git"
 	},
 	"scripts": {
-		"lint": "eslint . --fix"
+		"lint": "eslint . --fix",
+		"publish": "npm version patch && git push && npm publish --access public && git push --tags"
 	},
 	"keywords": [
 		"eslint",
