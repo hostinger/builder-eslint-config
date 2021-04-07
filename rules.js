@@ -21,6 +21,7 @@ module.exports = {
 			ignoreStrings: true,
 			ignoreUrls: true,
 			ignorePattern: '^import .*',
+			ignoreRegExpLiterals: true,
 		},
 	],
 };
