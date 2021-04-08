@@ -2,8 +2,9 @@ const {
 	objectCurlySpacingRule,
 	objectPropertyNewlineRule,
 	arrayBracketNewlineRule,
-	maxLenRule,
 } = require('./rules');
+
+// require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
 	plugins: [
@@ -28,7 +29,9 @@ module.exports = {
 					'sibling',
 					'parent',
 				],
-				alphabetize: { order: 'asc' },
+				alphabetize: {
+					order: 'asc',
+				},
 			},
 		],
 		'import/prefer-default-export': 'off',
@@ -36,7 +39,9 @@ module.exports = {
 		'modules-newline/export-declaration-newline': 'error',
 		'no-restricted-imports': [
 			'error',
-			{ patterns: ['..*'] },
+			{
+				patterns: ['..*'],
+			},
 		],
 
 		// Unicorn rules
@@ -127,7 +132,9 @@ module.exports = {
 		],
 		'no-tabs': [
 			'error',
-			{ allowIndentationTabs: true },
+			{
+				allowIndentationTabs: true,
+			},
 		],
 		curly: 'error',
 
@@ -137,8 +144,18 @@ module.exports = {
 		'object-curly-newline': [
 			'error',
 			{
-				multiline: true,
-				minProperties: 2,
+				ObjectExpression: {
+					multiline: true,
+					minProperties: 1,
+				},
+				ObjectPattern: {
+					multiline: true,
+					minProperties: 2,
+				},
+				ImportDeclaration: {
+					multiline: true,
+					minProperties: 2,
+				},
 			},
 		],
 		'object-property-newline': objectPropertyNewlineRule,
@@ -160,14 +177,25 @@ module.exports = {
 		// Miscellaneous
 		'multiline-comment-style': [
 			'error',
-			'starred-block',
+			'separate-lines',
 		],
 		'no-console': [
 			'error',
-			{ allow: ['error'] },
+			{
+				allow: ['error'],
+			},
 		],
 		'destructure-depth/max-depth': ['error'],
 		'class-methods-use-this': 'off',
-		'max-len': maxLenRule,
+		'max-len': [
+			'error',
+			{
+				code: 140,
+				ignoreStrings: true,
+				ignoreUrls: true,
+				ignorePattern: '^import .*',
+				ignoreRegExpLiterals: true,
+			},
+		],
 	},
 };

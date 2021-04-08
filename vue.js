@@ -2,26 +2,23 @@ const {
 	objectCurlySpacingRule,
 	objectPropertyNewlineRule,
 	arrayBracketNewlineRule,
-	maxLenRule,
 } = require('./rules');
 
 module.exports = {
 	extends: [
-		/*
-		 * Enables vue-specific rules
-		 * https://vuejs.github.io/eslint-plugin-vue/rules/
-		 */
+		// Enables vue-specific rules
+		// https://vuejs.github.io/eslint-plugin-vue/rules/
 		'plugin:vue/recommended',
-		/*
-		 * Enables generic Zyro ESLint rules
-		 */
+		// Enables generic Zyro ESLint rules
 		'./eslint-config-zyro.js',
 	],
 	rules: {
 		// Spacing rules
 		'vue/multiline-html-element-content-newline': [
 			'error',
-			{ ignores: [] },
+			{
+				ignores: [],
+			},
 		],
 		'vue/html-indent': [
 			'error',
@@ -45,7 +42,9 @@ module.exports = {
 		'vue/custom-event-name-casing': [
 			'error',
 			'kebab-case',
-			{ ignores: ['/^.*:click$/'] },
+			{
+				ignores: ['/^.*:click$/'],
+			},
 		],
 		'vue/component-name-in-template-casing': [
 			'error',
@@ -62,13 +61,11 @@ module.exports = {
 		// Miscellaneous
 		'vue/no-v-html': 'off',
 		'vue/attributes-order': ['error'],
-		'vue/max-len': maxLenRule,
-		/**
-		 * @vue/airbnb config just extends airbnb-base config and overrides 'no-param-reassign' rule. Since this config extends airbnb-base
-		 * by default already, there is no point in extending the whole @vue/airbnb config.
-		 * Copying this override rule is sufficient enough.
-		 * (https://github.com/vuejs/eslint-config-airbnb/blob/master/index.js)
-		 */
+		'vue/max-len': 'off',
+		// @vue/airbnb config just extends airbnb-base config and overrides 'no-param-reassign' rule. Since this config extends airbnb-base
+		// by default already, there is no point in extending the whole @vue/airbnb config.
+		// Copying this override rule is sufficient enough.
+		// (https://github.com/vuejs/eslint-config-airbnb/blob/master/index.js)
 		'no-param-reassign': [
 			'error',
 			{

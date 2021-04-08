@@ -14,14 +14,14 @@
 
 ### 🏠 [Homepage](https://github.com/zyro-inc/eslint-config-zyro#readme)
 
-## Install (with peerDependencies included)
+## Install
 **NPM**
 ```sh
-npm i -D @zyro-inc/eslint-config-zyro eslint-plugin-import eslint-plugin-modules-newline eslint-plugin-destructuring-newline eslint-plugin-destructure-depth eslint-plugin-unicorn
+npm i -D @zyro-inc/eslint-config-zyro
 ```
 **YARN**
 ```sh
-yarn add -D @zyro-inc/eslint-config-zyro eslint-plugin-import eslint-plugin-modules-newline eslint-plugin-destructuring-newline eslint-plugin-destructure-depth eslint-plugin-unicorn
+yarn add -D @zyro-inc/eslint-config-zyro
 ```
 
 If `vue` config is going to be used, make sure you have `eslint-plugin-vue` installed
