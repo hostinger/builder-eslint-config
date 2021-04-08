@@ -4,8 +4,6 @@ const {
 	arrayBracketNewlineRule,
 } = require('./rules');
 
-// require('@rushstack/eslint-patch/modern-module-resolution');
-
 module.exports = {
 	plugins: [
 		'import',
