@@ -32,6 +32,13 @@ module.exports = {
 				},
 			},
 		],
+		'import/extensions': [
+			1,
+			{
+				vue: 'always',
+				json: 'always',
+			},
+		],
 		'import/prefer-default-export': 'off',
 		'modules-newline/import-declaration-newline': 'error',
 		'modules-newline/export-declaration-newline': 'error',
@@ -135,6 +142,13 @@ module.exports = {
 			},
 		],
 		curly: 'error',
+		'brace-style': [
+			'error',
+			'1tbs',
+			{
+				allowSingleLine: false,
+			},
+		],
 
 		// Object spacing
 		'destructuring-newline/object-property-newline': 2,

@@ -42,19 +42,18 @@
 	"license": "ISC",
 	"dependencies": {
 		"eslint-config-airbnb-base": "^14.2.1",
-		"eslint-plugin-destructure-depth": "^1.0.1",
-		"eslint-plugin-destructuring-newline": "0.0.2",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-modules-newline": "0.0.6",
-		"eslint-plugin-unicorn": "^29.0.0"
+		"eslint-plugin-destructure-depth": "^1.0.2",
+		"eslint-plugin-destructuring-newline": "^0.0.2",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-modules-newline": "^0.0.6",
+		"eslint-plugin-unicorn": "^37.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "^7.20.0",
-		"eslint-plugin-vue": "^7.7.0"
+		"eslint": "7.32.0",
+		"eslint-plugin-vue": "^7.8.0"
 	},
 	"devDependencies": {
-		"@vue/cli-service": "^3.12.1",
-		"eslint": "^7.21.0",
+		"eslint": "7.32.0",
 		"eslint-plugin-vue": "^7.8.0"
 	}
 }
