@@ -1,6 +1,6 @@
 {
 	"name": "@zyro-inc/eslint-config-zyro",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "ESLint config, which follows the Zyro style guide",
 	"main": "index.js",
 	"repository": {
