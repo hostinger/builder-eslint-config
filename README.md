@@ -61,7 +61,7 @@ Give a ⭐️  if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Zyro team (https://zyro.com/)](https://github.com/zyro-inc).<br />
+Copyright © 2022 [Zyro team (https://zyro.com/)](https://github.com/zyro-inc).<br />
 This project is [ISC](https://en.wikipedia.org/wiki/ISC_license) licensed.
 
 ***
