@@ -45,7 +45,7 @@
 		"eslint-plugin-destructure-depth": "^1.0.2",
 		"eslint-plugin-destructuring-newline": "^0.0.2",
 		"eslint-plugin-import": "^2.25.2",
-		"eslint-plugin-modules-newline": "^0.0.6",
+		"eslint-plugin-modules-newlines": "^0.0.7",
 		"eslint-plugin-unicorn": "^37.0.1"
 	},
 	"peerDependencies": {
