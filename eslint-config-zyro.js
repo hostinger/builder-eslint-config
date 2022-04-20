@@ -7,7 +7,7 @@ const {
 module.exports = {
 	plugins: [
 		'import',
-		'modules-newline',
+		'modules-newlines',
 		'destructuring-newline',
 		'destructure-depth',
 		'unicorn',
@@ -40,8 +40,8 @@ module.exports = {
 			},
 		],
 		'import/prefer-default-export': 'off',
-		'modules-newline/import-declaration-newline': 'error',
-		'modules-newline/export-declaration-newline': 'error',
+		'modules-newlines/import-declaration-newline': 'error',
+		'modules-newlines/export-declaration-newline': 'error',
 		'no-restricted-imports': [
 			'error',
 			{

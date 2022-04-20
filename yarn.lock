@@ -644,10 +644,10 @@ eslint-plugin-import@^2.25.2:
     resolve "^1.20.0"
     tsconfig-paths "^3.11.0"
 
-eslint-plugin-modules-newline@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-modules-newline/-/eslint-plugin-modules-newline-0.0.6.tgz#310093ee8656efe92a8c6f9cb3aa5df9fea6331c"
-  integrity sha512-69NpBr68U6pmXL+y+KHl/64PwRarceC3/sCNUVxRbe0gPI32SIw8AtdpkqNiJYCa2yMd4lRrkrnU09Yio7KVzA==
+eslint-plugin-modules-newlines@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-modules-newlines/-/eslint-plugin-modules-newlines-0.0.7.tgz#f5a751fcea232e14c108f1917ebd565bab4435de"
+  integrity sha512-EYRsG/b0pgV6AG4C321G7Mv9INP526G+R+tLbPZMlJxGqE06Xnh+kYJeDDKn2Dp5XnmpyNON74wyDTKbyInZDg==
   dependencies:
     requireindex "~1.1.0"
 
