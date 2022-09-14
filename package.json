@@ -41,7 +41,7 @@
 	"homepage": "https://github.com/zyro-inc/eslint-config-zyro#readme",
 	"license": "ISC",
 	"dependencies": {
-		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-plugin-destructure-depth": "^1.0.2",
 		"eslint-plugin-destructuring-newline": "^0.0.2",
 		"eslint-plugin-import": "^2.25.2",
