@@ -42,18 +42,18 @@
 	"license": "ISC",
 	"dependencies": {
 		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-plugin-destructure-depth": "^1.0.2",
+		"eslint-plugin-destructure-depth": "^1.0.3",
 		"eslint-plugin-destructuring-newline": "^0.0.2",
-		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-modules-newlines": "^0.0.7",
-		"eslint-plugin-unicorn": "^37.0.1"
+		"eslint-plugin-unicorn": "^43.0.2"
 	},
 	"peerDependencies": {
 		"eslint": ">=7",
-		"eslint-plugin-vue": "^7.8.0"
+		"eslint-plugin-vue": "^9.5.1"
 	},
 	"devDependencies": {
-		"eslint": "^7.32.0",
-		"eslint-plugin-vue": "^7.8.0"
+		"eslint": "^8.24.0",
+		"eslint-plugin-vue": "^9.5.1"
 	}
 }
