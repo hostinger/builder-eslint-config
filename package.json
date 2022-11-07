@@ -1,15 +1,12 @@
 {
 	"name": "@zyro-inc/eslint-config-zyro",
-	"version": "1.0.24",
+	"version": "1.0.25",
 	"description": "ESLint config, which follows the Zyro style guide",
 	"main": "index.js",
 	"repository": "https://github.com/zyro-inc/eslint-config-zyro.git",
 	"scripts": {
 		"lint": "eslint . --fix",
-		"publish-config": "npm version patch && git push && npm publish && git push --tags"
-	},
-	"publishConfig": {
-		"access": "public"
+		"publish-config": "npm version patch && git push && npm publish --access public && git push --tags"
 	},
 	"keywords": [
 		"eslint",
