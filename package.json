@@ -45,10 +45,10 @@
 	"dependencies": {
 		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-plugin-destructure-depth": "^1.0.3",
-		"eslint-plugin-destructuring-newline": "^0.0.2",
+		"eslint-plugin-destructuring-newline": "^0.1.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-modules-newlines": "^0.0.7",
-		"eslint-plugin-unicorn": "^43.0.2"
+		"eslint-plugin-unicorn": "^45.0.2"
 	},
 	"peerDependencies": {
 		"eslint": ">=7",
