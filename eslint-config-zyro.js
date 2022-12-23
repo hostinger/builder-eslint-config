@@ -8,7 +8,7 @@ module.exports = {
 	plugins: [
 		'import',
 		'modules-newlines',
-		'destructuring-newline',
+		'newline-destructuring',
 		'destructure-depth',
 		'unicorn',
 	],
@@ -151,7 +151,7 @@ module.exports = {
 		],
 
 		// Object spacing
-		'destructuring-newline/object-property-newline': 2,
+		'newline-destructuring/newline': 'error',
 		'object-curly-spacing': objectCurlySpacingRule,
 		'object-curly-newline': [
 			'error',
