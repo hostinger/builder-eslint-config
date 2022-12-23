@@ -35,20 +35,14 @@ npm i -D eslint-plugin-vue
 	extends: ['@zyro-inc/zyro'],
 ```
 
-- **For Vue 2 projects**
-```js
-	extends: ['@zyro-inc/zyro/vue'],
-```
-
 - **For Vue 3 projects**
 ```js
-	extends: ['@zyro-inc/zyro/vue3'],
+	extends: ['@zyro-inc/zyro/vue'],
 ```
 
 ## Rules
 - [Common rules](https://github.com/zyro-inc/eslint-config-zyro/blob/master/eslint-config-zyro.js)
 - [Vue rules](https://github.com/zyro-inc/eslint-config-zyro/blob/master/vue.js)
-- [Vue 3 rules](https://github.com/zyro-inc/eslint-config-zyro/blob/master/vue3.js)
 
 ## Author
 

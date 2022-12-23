@@ -8,7 +8,7 @@ module.exports = {
 	extends: [
 		// Enables vue-specific rules
 		// https://vuejs.github.io/eslint-plugin-vue/rules/
-		'plugin:vue/recommended',
+		'plugin:vue/vue3-recommended',
 		// Enables generic Zyro ESLint rules
 		'./eslint-config-zyro.js',
 	],
