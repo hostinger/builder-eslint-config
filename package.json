@@ -1,9 +1,9 @@
 {
-	"name": "@zyro-inc/eslint-config-zyro",
-	"version": "2.1.0",
+	"name": "@hostinger/builder-eslint-config",
+	"version": "2.1.1",
 	"description": "ESLint config, which follows the Zyro style guide",
 	"main": "index.js",
-	"repository": "https://github.com/zyro-inc/eslint-config-zyro.git",
+	"repository": "https://github.com/hostinger/builder-eslint-config.git",
 	"scripts": {
 		"lint": "eslint . --fix",
 		"publish-config": "npm version patch && git push && npm publish --access public && git push --tags"
@@ -38,9 +38,9 @@
 		}
 	],
 	"bugs": {
-		"url": "https://github.com/zyro-inc/eslint-config-zyro/issues"
+		"url": "https://github.com/hostinger/builder-eslint-config/issues"
 	},
-	"homepage": "https://github.com/zyro-inc/eslint-config-zyro#readme",
+	"homepage": "https://github.com/hostinger/builder-eslint-config#readme",
 	"license": "ISC",
 	"dependencies": {
 		"eslint-config-airbnb-base": "^15.0.0",
