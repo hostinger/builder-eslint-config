@@ -1,6 +1,6 @@
 {
 	"name": "@hostinger/builder-eslint-config",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"description": "ESLint config, which follows the Zyro style guide",
 	"main": "index.js",
 	"repository": "https://github.com/hostinger/builder-eslint-config.git",
