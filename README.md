@@ -19,13 +19,13 @@
 **NPM**
 
 ```sh
-npm i -D @hostinger/builder-eslint-config
+npm i -D @hostinger/eslint-config-builder
 ```
 
 **YARN**
 
 ```sh
-yarn add -D @hostinger/builder-eslint-config
+yarn add -D @hostinger/eslint-config-builder
 ```
 
 If `vue` config is going to be used, make sure you have `eslint-plugin-vue` installed
@@ -39,13 +39,13 @@ npm i -D eslint-plugin-vue
 - **For JS projects**
 
 ```js
-	extends: ['@zyro-inc/zyro'],
+	extends: ['@hostinger/builder'],
 ```
 
 - **For Vue 3 projects**
 
 ```js
-	extends: ['@zyro-inc/zyro/vue'],
+	extends: ['@hostinger/builder/vue'],
 ```
 
 ## Rules
