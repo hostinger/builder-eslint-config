@@ -1,7 +1,6 @@
-<p align="center"><a href="https://zyro.com" rel="nofollow"><img src="https://raw.githubusercontent.com/zyro-inc/public-assets/master/Logo/JPG/Zyro%20Logo%20White.jpg" alt="Zyro logo" style="max-width:100%;" width="200"></a></p>
 <h1 align="center"><b>@hostinger/builder-eslint-config</b></h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-2.1.3-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/hostinger/builder-eslint-config#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -10,7 +9,7 @@
   </a>
 </p>
 
-> ESLint config, which follows the Zyro style guide
+> ESLint config, which follows the Hostinger website builder style guide
 
 ### 🏠 [Homepage](https://github.com/hostinger/builder-eslint-config#readme)
 
@@ -55,9 +54,9 @@ npm i -D eslint-plugin-vue
 
 ## Author
 
-👤 **Zyro team (https://zyro.com/)**
+👤 **Hostinger website builder team (https://hostinger.com/)**
 
-- Website: https://zyro.com
+- Website: https://hostinger.com
 - Github: [@hostinger](https://github.com/hostinger)
 
 ## 🤝 Contributing
@@ -96,7 +95,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2022 [Zyro team (https://zyro.com/)](https://github.com/hostinger).<br />
+Copyright © 2022 [Hostinger website builder team (https://hostinger.com/)](https://github.com/hostinger).<br />
 This project is [ISC](https://en.wikipedia.org/wiki/ISC_license) licensed.
 
 ---
